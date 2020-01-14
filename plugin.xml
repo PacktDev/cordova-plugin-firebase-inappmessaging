@@ -1,7 +1,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android"
            id="cordova-plugin-firebase-inappmessaging"
-      version="2.0.3">
+      version="2.0.4">
 
     <name>cordova-plugin-firebase-inappmessaging</name>
     <description>Cordova plugin for Firebase In-App Messaging</description>
@@ -21,7 +21,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <platform name="ios">
         <podspec>
             <config>
-                <source url="https://github.com/CocoaPods/Specs.git"/>
+                <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods>
                 <pod name="Firebase/InAppMessagingDisplay" spec="~> 6.3.0" />
